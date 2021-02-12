@@ -1,0 +1,526 @@
+.App {
+  text-align: center;
+  background-color: #010100;
+}
+
+#root {
+  overflow-x: hidden ;
+}
+
+.body {
+  background-color: black ;
+  overflow-x: none !important ;
+}
+.root {
+  background-color: black ;
+}
+
+.homePage {
+  background-color: #010100;
+  height: 100vh;
+}
+/* Contact Us*/
+.contactUsBody {
+  background-color: black; 
+  height: 100vh ; 
+  margin-top: -25px ;
+  width: 100% ; 
+}
+
+.contactUsReCaptcha {
+  border: none;
+  background-color: #FFB90A;
+  box-shadow: none;
+  color: black;
+}
+
+/* #rc-anchor-container {
+  border: none;
+  background-color: #FFB90A;
+  box-shadow: none;
+  color: black;
+ 
+} */
+
+.statusContactUs {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 15px ; 
+  margin-bottom: 0px;
+}
+
+.contactUsForm {
+height: 60vh; 
+width: 90% ; 
+margin-left: auto ; 
+margin-right: auto ; 
+background-color: #FFB90A ;
+}
+
+.contactUsHeader {
+  color: #FFB90A ;
+  padding-top: 20px ;
+  text-align: center;
+  border-radius: 5px ; 
+}
+
+.contactUsFormBody {
+  padding: 20px ;
+  font-weight: 700;
+}
+
+.contactUsFormBody div {
+  margin-bottom: 10px ; 
+  display: flex;
+  flex-direction: column ;
+}
+
+.contactUsFormBody input {
+  height: 3vh; 
+  border-radius: 5px ;
+  background-color: black;
+  color: #FFB90A ;
+  box-shadow: none ;
+  border: black;
+  font-size: 13pt;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.messageContactUs {
+  height: 12vh;
+  border-radius: 5px ;
+  background-color: black;
+  color: #FFB90A ;
+  font-size: 13pt;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.contactUsButton button{
+  width: 30% ; 
+  text-align: center ;
+  margin-left: auto;
+  margin-right: auto ;
+  padding: 8px ;
+  font-size: 11pt;
+  border-radius: 5px ;
+  color: #FFB90A ;
+  /* background-color:  #FFB90A ; */
+  background-color: #048D9A ; 
+  border: #048D9A solid 3px ;
+  font-weight: 700;
+}
+
+/* Profile Chris */
+.ChrisBody {
+  background-color: black ;
+  height: 100vh;
+  padding-top: 20px;
+  width: 100% ;
+}
+
+@media (max-width: 744px) {
+  .chrisProfileList .chrisProfileList2 {
+    display: flex;
+    flex-direction: column ;
+    overflow-y: scroll;
+    height: 25vh ;
+  }
+}
+
+.profileChris {
+  background-color:#E80044;
+  margin-top: -22px;
+}
+
+.profileBioChris {
+  padding-top: 53px;
+  padding-left: 660px;
+  margin-left: 24px;
+  max-width: 300px;
+  padding-right: 10px;
+  padding-bottom: 26px;
+  background-color: #400059;
+  font-weight: 700;
+  color: #E80044;
+  border-radius: 5px;
+}
+
+.davidHR.chrisBorderColor {
+  border-color: #400059; 
+}
+
+.chrisFontColor {
+color: #400059; 
+}
+
+.chrisProfileList {
+  list-style-type: none;
+  /* border: double black 6px; */
+  width: 45%;
+  background-color: #400059;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 2px;
+  color: #E80044;
+  margin-bottom: 2px;
+  height: 36vh ;
+}
+
+
+.chrisProfileList2 {
+  display: flex;
+  flex-direction: row ;
+}
+
+.chrisHR2 {
+  margin-top: 100px ; 
+  border-color: black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto ;
+}
+
+/* Profile David */
+.profileDavid {
+  background-color: #048D9A ; 
+  margin-top: -22px;
+}
+
+.profileImage img {
+  margin-top: 40px ;
+  margin-bottom: 40px;
+  /* text-align: center; */
+  float: left;
+  margin-left: 4%;
+}
+
+.profileBioDavid {
+  padding-top: 53px;
+  padding-left: 660px;
+  margin-left: 24px;
+  max-width: 300px;
+  padding-right: 10px;
+  padding-bottom: 26px;
+  background-color: #400059;
+  font-weight: 700;
+  color: #048D9A;
+  border-radius: 5px;
+}
+
+
+.DavidBody {
+  background-color: black ;
+  height: 100vh;
+  padding-top: 20px;
+  width: 100% ; 
+}
+
+.davidProfileRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30vh;
+}
+
+.davidProfileRow div {
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.davidProfileRow ul {
+  height: 15vh ;
+}
+
+.profileHeaderDavid {
+  padding: 10px ;
+  margin-left: 2%;
+}
+
+.davidProfileSubH {
+  margin-left: 35px; 
+  height: 4vh ;
+}
+
+.davidProfileParagraph {
+  height: 10vh ; 
+  margin-left: 40px; 
+  font-weight: 700;
+}
+
+.davidProfileParagraph a {
+  text-decoration: none;
+  color: #FFB90A;
+}
+
+@media (max-width: 770px) {
+  .davidProfileList {
+    height: 40vh; 
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 860px) {
+    .profileBioDavid {
+      padding-top: 20px;
+      padding-left: 10px;
+      margin-left: 24px;
+      max-width: none ;
+      margin-right: 20px;
+      padding-right: 10px;
+      padding-bottom: 26px;
+      background-color: #400059;
+      font-weight: 700;
+      color: #048D9A;
+      border-radius: 5px;
+      float: right;
+  }
+  .profileBioChris {
+    padding-top: 20px;
+      padding-left: 10px;
+      margin-left: 24px;
+      max-width: none ;
+      margin-right: 20px;
+      padding-right: 10px;
+      padding-bottom: 26px;
+      background-color: #400059;
+      font-weight: 700;
+      color: #E80044;
+      border-radius: 5px;
+      float: right;
+  }
+  }
+
+  .davidHR2 {
+    border-color: black;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 100px; 
+  }
+}
+
+.davidHR2 {
+  border-color: black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto ;
+
+}
+
+.davidProfileList {
+  list-style-type: none;
+  /* border: double black 6px; */
+  width: 45%;
+  background-color: #400059;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 2px;
+  color: #048D9A;
+  margin-bottom: 2px;
+}
+
+.davidProfileList li {
+  margin-bottom: 5px ;
+}
+
+.davidHR {
+  border-color: black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Single posts */
+.singlePost {
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  padding: 3px ; 
+  margin-left: 10px; 
+  margin-right: 10px ;
+}
+
+.postHr {
+  border-color: #048D9A;
+}
+
+.singlePostTitle {
+  color: #048D9A;
+}
+
+.singlePostBody {
+  color: #048D9A;
+}
+/* Home */
+
+.homeBody {
+  background: #010100 ;
+  height: 120vh;
+  padding-top: 40px; 
+  overflow-y: scroll;
+}
+
+.tintPhone {
+  color: #048D9A;
+}
+
+.GarnetLogo {
+  height: 100px;
+  width: 100px ;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px ; 
+}
+
+.footerStyles.nav > hr {
+  border-color: #010100;
+} 
+
+.homeLink {
+  text-decoration: none;
+  color: #048D9A;
+}
+
+.frontPageHeader {
+  color: #FFB90A ; 
+}
+
+.frontPageParagraph {
+  color: #FFB90A ; 
+}
+
+li.nav-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.footerStyles {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px; 
+  background-color: #400059;
+  padding: 5px;
+  height: 30px;
+  position: fixed;
+  bottom: -20px ;
+  width: 100%;
+ border: double #010100 8px ; 
+  
+}
+
+.footerStyles a {
+  margin-right: 20px; 
+  text-decoration: none;
+  color: #E80044; 
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  background-color: #E80044;
+  border-color: #E80044;
+}
+
+.theNavBar { 
+  display: flex;
+  flex-direction: row ;
+  width: 100% ;
+  border: double 8px black ;
+  background-color: #E80044 ;
+  
+}
+
+.postPageHeader {
+  color: #048D9A;
+  text-align: center;
+
+}
+
+.postJumbotron { 
+  border: #048D9A solid 4px; 
+  padding: 10px; 
+  padding-left: 20px; 
+  width: 77%;
+  margin-top: 20px; 
+  margin-right: auto;
+  margin-left: auto;
+  overflow-y: scroll;
+  max-height: 55vh;
+  
+}
+
+
+.GarnetLabsBrand.navbar-brand {
+font-size: 26pt;
+text-align: center;
+vertical-align: auto;
+margin-left: 5px ;
+width: 50px ;
+}
+
+.theNavBar a { 
+color: black ;
+text-decoration: none ;
+font-weight: 800;
+
+}
+
+.mr-auto.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px; 
+}
+
+.theNavBar a {
+width: 100px ;
+display: flex;
+flex-direction: row;
+}
+@media (max-width: 931px ) {
+  .homeBody{
+    height: 130vh ;
+  }
+}
+.frontJumbotron {
+  width: 75%; 
+  padding: 25px; 
+  border: #FFB90A  solid 4px; 
+  margin-left: auto; 
+  margin-right: auto ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
